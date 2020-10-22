@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CucumberTestNGSuite" duration-ms="23879" started-at="2020-10-18T18:48:26 IST" finished-at="2020-10-18T18:48:50 IST">
+    <groups>
+    </groups>
+    <test name="Registratin" duration-ms="23879" started-at="2020-10-18T18:48:26 IST" finished-at="2020-10-18T18:48:50 IST">
+      <class name="com.raviautomation.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.raviautomation.runner.TestRunner@30b8a058]" name="setUpClass" is-config="true" duration-ms="1579" started-at="2020-10-18T18:48:26 IST" finished-at="2020-10-18T18:48:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenarios(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.raviautomation.runner.TestRunner@30b8a058]" name="runScenarios" duration-ms="20429" started-at="2020-10-18T18:48:28 IST" description="Run Cucumber Feature" data-provider="scenarios" finished-at="2020-10-18T18:48:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Perminate Registration link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registration - Perminent Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenarios -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.raviautomation.runner.TestRunner@30b8a058]" name="tearDownClass" is-config="true" duration-ms="1759" started-at="2020-10-18T18:48:48 IST" finished-at="2020-10-18T18:48:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.raviautomation.runner.TestRunner -->
+    </test> <!-- Registratin -->
+  </suite> <!-- CucumberTestNGSuite -->
+</testng-results>

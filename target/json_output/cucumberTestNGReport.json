@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-18T15:35:28.771Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8508000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.raviautomation.steps.HookSteps.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1850000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.raviautomation.steps.HookSteps.navigateApp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Perminate Registration link",
+        "description": "",
+        "id": "registration---perminent-registration;verify-perminate-registration-link",
+        "after": [
+          {
+            "result": {
+              "duration": 2998000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.raviautomation.steps.HookSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1469000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigated to registration link when user in homepage",
+            "match": {
+              "location": "com.raviautomation.steps.RegistrationSteps.navigated_to_registration_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify perminate registration link",
+            "match": {
+              "location": "com.raviautomation.steps.RegistrationSteps.verify_perminate_registration_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Registration - Perminent Registration",
+    "description": "",
+    "id": "registration---perminent-registration",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/raviautomation/features/registration.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

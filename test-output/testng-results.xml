@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17531" started-at="2020-10-18T15:35:27Z" finished-at="2020-10-18T15:35:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17531" started-at="2020-10-18T15:35:27Z" finished-at="2020-10-18T15:35:45Z">
+      <class name="com.raviautomation.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.raviautomation.runner.TestRunner@3327bd23]" name="setUpClass" is-config="true" duration-ms="896" started-at="2020-10-18T15:35:27Z" finished-at="2020-10-18T15:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenarios(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.raviautomation.runner.TestRunner@3327bd23]" name="runScenarios" duration-ms="15203" started-at="2020-10-18T15:35:28Z" description="Run Cucumber Feature" data-provider="scenarios" finished-at="2020-10-18T15:35:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Perminate Registration link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registration - Perminent Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenarios -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.raviautomation.runner.TestRunner@3327bd23]" name="tearDownClass" is-config="true" duration-ms="1390" started-at="2020-10-18T15:35:43Z" finished-at="2020-10-18T15:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.raviautomation.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
